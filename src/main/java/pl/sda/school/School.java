@@ -1,10 +1,14 @@
 package pl.sda.school;
 
-public class School {
+import java.util.List;
+
+public class School extends Student {
     private String name;
     private String city;
 
+
     public School(String name, String city) {
+        super ( );
         this.name = name;
         this.city = city;
     }
@@ -23,5 +27,8 @@ public class School {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public void add(List<Student> listaStudentow3) {
     }
 }

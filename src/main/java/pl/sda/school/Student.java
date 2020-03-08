@@ -9,6 +9,10 @@ public class Student {
         this.lastname = lastname;
     }
 
+    public Student() {
+
+    }
+
     public String getName() {
         return name;
     }
